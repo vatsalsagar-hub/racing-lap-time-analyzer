@@ -67,6 +67,11 @@ racing-lap-time-analyzer/
     └── Racing_Lap_Time_Analyzer_Capstone_Presentation.pptx
 ```
 
+## Documentation
+
+- [Technical report](docs/Racing_Lap_Time_Analyzer_Technical_Report.pdf)
+- [Capstone presentation](docs/Racing_Lap_Time_Analyzer_Capstone_Presentation.pptx)
+
 ## Performance Notes
 
 The project also evaluates memory behavior and potential optimization. The row-major layout gives sequential access during lap aggregation, and the technical analysis discusses cache locality, SIMD potential, procedure overhead, and a theoretical **1.95× speedup on four cores** using Amdahl's Law.
